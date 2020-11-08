@@ -23,7 +23,7 @@ class Blockchain {
     getBlockAtPos(index) { return this.chain[index]; }
 
     getBlockByHash(hash) {
-      for(var i = 0; i < this.chain.length, i++){
+      for(var i = 0; i < this.chain.length; i++){
         if(this.chain[i].hash == hash){
           return this.chain[i];
         }
