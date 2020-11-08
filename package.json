@@ -15,7 +15,7 @@
     "Blockchain"
   ],
   "license": "ISC",
-  "main": "none",
+  "main": "main.js",
   "name": "@kwright02/blockchain",
   "repository": {
     "type": "git",
